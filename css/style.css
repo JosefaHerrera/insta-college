@@ -1,1 +1,86 @@
-style.css 
+
+
+
+.navbar-default{
+	background-color: transparent;
+	border-color:none;
+}
+.navbar{
+	border: none;
+}
+
+body{
+	background-image: url(../assets/img/fondo-insta.jpg);
+}
+
+button{
+	background-color: transparent;
+	border:none;
+	color: white;
+	padding-top: 20px;
+}
+.logo{
+	width: 313px;
+}
+
+.fa{
+	color: white;
+}
+form{
+	padding-top:41px;
+}
+
+form .input-style{
+	background-color: transparent;
+	color: white;
+}
+
+input[type="name"]:focus , input[type="password"]:focus , input[type="button"]:focus{
+	border:1px solid pink;
+	box-shadow: 0 0 5px pink;
+}
+
+
+.btn-default {
+    background-color: transparent;
+    color: white;
+    padding-left: 160px;
+    text-align: center;
+    padding-right: 160px;
+    font-size: 17px;
+}
+
+.btn-default:hover {
+    background-color: transparent;
+    color: pink;
+    padding-left: 160px;
+    text-align: center;
+    padding-right: 160px;
+    font-size: 17px;
+}
+
+.separador{
+	padding-top: 30px;
+}
+
+a{
+	color: white;
+}
+a:hover{
+	color:pink;
+	text-decoration: none;
+}
+.obten-ayuda {
+    padding-top: 41px;
+    font-size: 15px;
+}
+.facebook{
+	padding-top: 20px;
+}
+footer {
+    bottom: 0;
+    position: absolute;	
+	padding-top: 7px;
+	height: 40px;
+	width: 100%;
+}
