@@ -76,6 +76,22 @@ footer {
 	background-color: black;
 	color:white;
 }
+a{
+	color: white;
+}
+a:hover{
+	color:pink;
+	text-decoration: none;
+}
+
+.college{
+	font-family: 'Lobster', cursive;
+
+	color: white;
+}
+.college:hover{
+	color: pink;
+}
 
 
 .col-quarter {
