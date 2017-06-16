@@ -1,6 +1,7 @@
-			* {
+			body {
 				margin: 0;
 				padding: 0;
+				background-image: url(../assets/img/fondo-insta.jpg);
 			}
 
 			.row:after,
@@ -14,18 +15,8 @@
 				display: block-block;
 			}
 
-			.col-full {
-				width: 100%;
-			}
-
-			.col-half {
-				width: 50%;
-			}
-
-			
-
 			.hitbox {
-				position: relative;∫∫
+				position: relative;
 			}
 
 			.hitbox:before {
@@ -52,18 +43,43 @@
 				margin: 0;
 			}
 
+.img-photobooth{
+	width: 100%;
+}
+.padding-fotos{
+	padding: 20px;
+	padding-left: 0px;
+	background-color: whitesmoke;
+}
+.padding-galeria{
+	padding: 40px;
+}
+.fa , p{
+	color: white;
+}
 
-/****CODIGO MIO****/
-
+header{
+	background-color: black;
+}
 
 img {
     width: 121px;
     padding-bottom: 2px;
 }
 
+footer {
+    bottom: 0;
+    position: absolute;	
+	padding-top: 7px;
+	height: 40px;
+	width: 100%;
+	background-color: black;
+	color:white;
+}
+
 
 .col-quarter {
-				width: 24%;
-				margin: 0.5%;
-				background-color: #aaaaaa;
-			}
+    width: 30%;
+    border:1px solid white;
+    display: inline-block;
+}

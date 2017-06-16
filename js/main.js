@@ -14,6 +14,6 @@ function validarContact() {
         pwd.setAttribute('placeholder', 'llene este campo por favor');
     }
     if (name.value !== '' && pwd.value !=='') {
-        botonEnviar.setAttribute('href', 'index2.html');
+       window.location.href = 'index2.html'
     }
 }
